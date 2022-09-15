@@ -1,4 +1,4 @@
-let t=[];
+export let t=[];
 export function hozzaad(szam) {    
     if (szam<0) {
         console.log("Hibás számot adott meg");
@@ -12,5 +12,5 @@ export function atlag() {
     for (let index = 0; index < t.length; index++) {        
         ossz += t[i];
     }
-    return "Az átlag: "+ossz/t-length;
+    return "Az átlag: "+ossz/t.length;
 }
