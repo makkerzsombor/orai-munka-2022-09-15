@@ -1,6 +1,5 @@
 let t=[];
-export function hozzaad(min, max) {
-    let szam = Math.floor(min + Math.random() * (max-min))
+export function hozzaad(szam) {    
     if (szam<0) {
         console.log("Hibás számot adott meg");
     }else{
@@ -8,7 +7,7 @@ export function hozzaad(min, max) {
     }
 }
 
-export function atlag(t) {
+export function atlag() {
     let ossz = 0;
     for (let index = 0; index < t.length; index++) {        
         ossz += t[i];
