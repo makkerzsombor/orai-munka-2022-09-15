@@ -1,5 +1,6 @@
 let t=[];
 export function hozzaad(szam) {
+    
     if (szam<0) {
         console.log("Hibás számot adott meg");
     }else{
