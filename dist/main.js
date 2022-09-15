@@ -1,0 +1,1 @@
+(()=>{"use strict";let e=[];function t(t){t<0?console.log("Hibás számot adott meg"):e.push(t)}function n(){let t=0;for(let n=0;n<e.length;n++)t+=e[i];return"Az átlag: "+t/e.length}document.getElementById("gomb").addEventListener("click",(function(){document.getElementById("bekertszam").value,console.log(t),console.log(n)}))})();
