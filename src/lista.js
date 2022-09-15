@@ -1,6 +1,6 @@
 let t=[];
-export function hozzaad(szam) {
-    
+export function hozzaad(min, max) {
+    let szam = Math.floor(min + Math.random() * (max-min))
     if (szam<0) {
         console.log("Hibás számot adott meg");
     }else{
