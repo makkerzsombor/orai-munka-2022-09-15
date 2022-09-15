@@ -1,7 +1,6 @@
 import { hozzaad, atlag } from "./lista.js";
 function katt() {
-    let ertek = parseInt(document.getElementById('bekertszam').value);
-    hozzaad(ertek);
+    hozzaad(parseFloat(document.getElementById("bekertszam").value));
     alert(atlag());
 }
 

@@ -10,7 +10,7 @@ export function hozzaad(szam) {
 export function atlag() {
     let ossz = 0;
     for (let index = 0; index < lista.length; index++) {        
-        ossz += lista[i];
+        ossz += lista[index];
     }
     return ossz/lista.length;
 }
